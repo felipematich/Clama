@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:white ;
+    background-position: center;
+    background-size: cover;
+}
+
+nav a{
+   text-decoration: none;
+   color: yellow;
+   font-family: Secular One;
+   padding: 10px;
+   font-size: 25px; 
+}
+
+nav a:hover{
+    color: white;
+}
+
+p{
+    font-family: Arial;
+    font-size: 20px;
+    margin: 10px 0px 10px 3px;
+}
+
+.logo{
+    width: 200px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.clama{
+    font-family: Secular One;
+    font-size: 45px;
+    display: inline-block;
+    color: white;
+}
+
+.cabecera{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.navegacion{
+    display: flex;
+    margin: 0 auto;
+}
+
+.encabezado_lista{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.encabezado_lista_item{
+    margin: 16px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.subtitulos{
+    text-align:center;
+    margin: 30px;
+    font-family: Secular One;
+    font-size: 30px;
+}
+
+.videoAlaskan{
+    display:flex;
+    flex-direction: row;
+    text-align:left; 
+    background-color: yellow;
+    border: solid 3px black;
+    padding: 16px;
+    margin: 0 16px 16px 16px;
+}
+
+.videoAlaskan_solo{
+    border: solid 3px ;
+}
+
+.videoDuster{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align:left;
+    background-color: yellow;
+    border: solid 3px black;
+    padding: 16px;
+    margin: 16px 16px 30px 16px;
+}
+
+.videoDuster_solo{
+    border: solid 3px black;
+    margin-right: 16px;
+}
+
+footer{
+    background-color: black;
+    font-size: 25px;
+}
+
+.footer_redes{
+    color: white;
+    font-family: Varela Round;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer_lista{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.whatsapp{
+    width: 80px;
+    position: fixed;
+    right: 1px;
+    bottom: 1px; 
+}
+
+/* Autos 0KM */
+
+.autos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.autos_div{
+    text-align: center;
+    font-family: Varela Round;
+    background-color: yellow;
+    margin: 16px;
+}
+
+.imagenAutos{
+    width: 500px;
+    margin: 16px;
+    border: solid 3px black;
+}
+
+.boton{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFD62;
+    font-family: Varela Round;
+    font-weight: bold;
+    margin: 16px;
+    padding: 16px;
+}
+
+
+/* Servicios */
+
+.servicios_bloque:hover{
+    background-color: #FFFD62;
+}
+
+.servicios_bloque{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 3px black;
+    width: 50%;
+    margin: 16px auto;
+}
+
+.servicios_subtitulo{
+    font-family: Varela Round;
+    font-size: xx-large;
+    margin: 16px;
+}
+
+.servicios_texto{
+    font-family: Arial;
+    font-weight: bold;
+    margin: 16px;
+}
+
+.servicios_img{
+    margin: 16px;
+    width: 700px;
+    height: 400px;
+}
+
+/* Sucursales */
+
+.suc_beiro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align:left; 
+    background-color: yellow;
+    border: solid 3px black;
+    width: 60%;
+    padding: 16px;
+    margin: 16px auto;
+}
+
+.subtitulo_suc{
+    font-family: Varela Round;
+    margin: 16px;
+}
+
+.suc_texto{
+    font-family: Arial;
+    margin: 16px;
+}
+
+.subText{
+    text-align: left;
+}
+
+/* Pagina Contacto */
+
+select{
+    margin: 5px;
+    height: 22px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction:column;
+    justify-content:center ;
+    margin: 16px;
+}
+
+.subtitulo_3{
+    display: flex;
+    justify-content:center ;
+    font-family: Varela Round;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 16px;
+}
+
+.form_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border:  solid 1px black;
+    border-radius: 6px;
+    width: 20%;
+    margin: 16px auto;
+    padding: 16px;
+}
+
+label{
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+input{
+    margin: 5px 0px 10px 3px;
+    padding: 3px;
+}
+
+.enviar{
+    width: 100px;
+    height: 50px;
+}
+
+/* Casa Central */
+
+span{
+    font-weight: bold;
+}
+
+.casaCentral{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    margin: 16px 0px 16px 0px;
+    padding: 16px;
+    background-color: yellow;
+}
+
+.casaCentral_ubi{
+    font-family: Varela Round;
+    font-size: 30px;
+    text-align: center;
+    margin: 16px;
+    border: solid 3px black;
+    margin: 16px auto;
+}
+
+.casaCentral_texto{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
