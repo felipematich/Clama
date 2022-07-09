@@ -150,6 +150,7 @@ footer{
 .boton{
     display: flex;
     flex-direction: row;
+    border-radius: 8px;
     background-color: #FFFD62;
     font-family: Varela Round;
     font-weight: bold;
