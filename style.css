@@ -20,6 +20,7 @@ nav a{
 
 nav a:hover{
     color: white;
+    transform: scale(1.2) ;
 }
 
 p{
@@ -69,6 +70,11 @@ p{
     margin: 30px;
     font-family: Secular One;
     font-size: 30px;
+    transition: transform 3s;
+}
+
+h2:hover{
+    transform: rotateX(360deg);
 }
 
 .videoAlaskan{
@@ -78,7 +84,7 @@ p{
     background-color: yellow;
     border: solid 3px black;
     padding: 16px;
-    margin: 0 16px 16px 16px;
+    margin: 0 16px 16px 16px;  
 }
 
 .videoAlaskan_solo{
@@ -157,6 +163,18 @@ footer{
     padding: 16px;
 }
 
+.boton:hover{
+    transform: scale(1.1);
+    transition: linear 2s;
+    animation: boton 2s;
+}
+
+@keyframes boton{
+    100%{
+        background-color: green;
+    }
+}
+
 
 /* Servicios */
 
@@ -205,6 +223,18 @@ footer{
     width: 60%;
     padding: 16px;
     margin: 16px auto;
+}
+
+.suc_beiro:hover{
+    transform: scale(1.03);
+    transition: linear 3s;
+    animation: sucursal 3s;
+}
+
+@keyframes sucursal{
+    100%{
+        background-color: aqua;
+    }
 }
 
 .subtitulo_suc{
