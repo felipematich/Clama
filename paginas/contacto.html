@@ -24,6 +24,7 @@
                 <li><a class="encabezado_lista_item" href="./0km.html">Autos 0KM</a></li>
                 <li><a class="encabezado_lista_item" href="./servicios.html">Servicios</a></li>
                 <li><a class="encabezado_lista_item" href="./sucursales.html">Sucursales</a></li>
+                <li><a class="encabezado_lista_item active" href="#">Contacto</a></li>
                 <li><a class="encabezado_lista_item" href="./casa-central.html">Casa Central</a></li>
             </ul>
 		</nav>
@@ -70,7 +71,27 @@
             </div>
 
             <div class="form_div">
-                <input class="enviar" type="submit" name="boton" id="enviar">
+                <button type="button" class="btn btn-dark enviar" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Enviar
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Excelente!!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Ya enviamos tus datos. Pronto un operador se pondra en contacto lo antes posible
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             
         </form>
@@ -93,7 +114,7 @@
 					</a>
 				</li>
 			</ul>
-            <a href="https://www.whatsapp.com/?lang=es" target="blank" ><img  class="whatsapp" src="../imagenes/whatsapp.png" alt="Whatsapp Clama">
+            <a href="https://api.whatsapp.com/send/?phone=5491145058600&text=Hola%2C+me+estoy+comunicando+desde+la+web.+Mi+consulta+es%3A+&type=phone_number&app_absent=0" target="blank" ><img  class="whatsapp" src="../imagenes/whatsapp.png" alt="Whatsapp Clama">
 
 		</section>
 	</footer>

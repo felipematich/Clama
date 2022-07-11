@@ -20,6 +20,11 @@ nav a{
 
 nav a:hover{
     color: white;
+    transform: scale(1.1);
+}
+
+.active{
+    color: #7F8176;
 }
 
 p{
@@ -56,6 +61,7 @@ p{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    list-style: none;
 }
 
 .encabezado_lista_item{
@@ -118,6 +124,7 @@ footer{
     justify-content:space-around;
     margin: 0 auto;
     width: 50%;
+    list-style: none;
 }
 
 .whatsapp{
@@ -156,6 +163,18 @@ footer{
     font-weight: bold;
     margin: 16px;
     padding: 16px;
+}
+
+.preguntasFrecuentes{
+    margin: 16px 0px 16px 0px;
+    font-family: Secular One;
+    font-size: 30px;
+}
+
+.acordion{
+    margin: 16px 0px 16px 0px;
+    padding: 16px;
+    background-color: gray;
 }
 
 
@@ -305,7 +324,7 @@ span{
     flex-direction: column;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1220px){
     .cabecera{
         flex-wrap: wrap;
         align-items: center;
