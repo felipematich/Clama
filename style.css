@@ -68,6 +68,7 @@ p{
     margin: 16px;
     font-size: 30px;
     display: inline-block;
+    text-align: center;
 }
 
 .subtitulos{
@@ -227,6 +228,21 @@ footer{
     margin: 16px auto;
 }
 
+.suc_beiro:hover{
+    transform: scale(1.03);
+    transition: linear 3s;
+    animation: sucursal 2s;
+}
+
+@keyframes sucursal{
+    50%{
+        background-color: #F7FD45;
+    }
+    100%{
+        background-color: #F6FE0D;
+    }
+}
+
 .subtitulo_suc{
     font-family: Varela Round;
     margin: 16px;
@@ -337,10 +353,6 @@ span{
         justify-content: center;
     }
 
-    .encabezado_lista_item{
-        text-align: center;
-    }
-
     .subtitulos{
         display: flex;
         flex-direction: row;
@@ -434,10 +446,6 @@ span{
         flex-direction: column;
     }
 
-    .encabezado_lista_item{
-        text-align: center;
-    }
-
     .subtitulos{
         display: flex;
         flex-direction: row;
@@ -482,7 +490,7 @@ span{
     }
 
     .imagenAutos{
-        margin: 0;
+        margin: 0px;
         width: 100%;
     }
 
