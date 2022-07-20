@@ -1,0 +1,207 @@
+@media screen and (max-width:1220px){
+    .cabecera{
+        flex-wrap: wrap;
+        align-items: center;
+        width:fit-content;
+    }
+
+    .encabezado_lista{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .subtitulos{
+        display: $display-flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .videoAlaskan{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .videoAlaskan_solo{
+        width: auto;
+    }
+
+    .videoDuster{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .videoDuster_solo{
+        width: auto;
+    }
+
+    .footer_lista_item img{
+        width: 50px;
+    }
+
+    .whatsapp{
+        width: 50px;
+    }
+
+    .servicios_bloque:hover{
+        background-color: map-get($colores , "color-default" );
+    }
+
+    .servicios_bloque{
+        width: 80%;
+    }
+
+    .servicios_img{
+        padding: 16px;
+        width: 100%;
+    }
+
+    .suc_beiro{
+        flex-direction: column;
+    }
+
+    .suc_mapa{
+        width: 100%;
+    }
+
+    .form_div{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .input{
+        width: 80%;
+    }
+
+    .textarea{
+        width: 80%;
+    }
+
+    .casaCentral_ubi{
+        width: 100%;
+    }
+
+    .casaCentral{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mapaCentral{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .cabecera{
+        flex-wrap: wrap;
+        align-items: center;
+        width:fit-content;
+    }
+
+    .encabezado_lista{
+        flex-direction: column;
+    }
+
+    .subtitulos{
+        display: $display-flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .videoAlaskan{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .videoAlaskan_solo{
+        width: auto;
+    }
+
+    .videoDuster{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .videoDuster_solo{
+        width: auto;
+    }
+
+    .footer_lista_item img{
+        width: 50px;
+    }
+
+    .whatsapp{
+        width: 50px;
+    }
+
+    .autos{
+        flex-direction: column;
+    }
+
+    .autos_div{
+        margin: 0px 0px 16px 0px;
+        width: 100%;
+    }
+
+    .imagenAutos{
+        margin: 0px;
+        width: 100%;
+    }
+
+    .servicios_bloque:hover{
+        background-color: map-get($colores , "color-default" );
+    }
+
+    .servicios_bloque{
+        width: 100%;
+    }
+
+    .servicios_img{
+        padding: 2px;
+        width: 100%;
+    }
+
+    .suc_beiro{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .suc_mapa{
+        width: 100%;
+    }
+
+    .form_div{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .input{
+        width: 80%;
+    }
+
+    .textarea{
+        width: 80%;
+    }
+
+    .casaCentral_ubi{
+        width: 100%;
+    }
+
+    .casaCentral{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mapaCentral{
+        width: 100%;
+    }
+}
+
+
+
+
+

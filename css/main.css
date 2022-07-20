@@ -1,3 +1,232 @@
 * {
   margin: 0;
   padding: 0; }
+
+body {
+  background-color: white;
+  background-position: center;
+  background-size: cover; }
+
+nav a {
+  text-decoration: none;
+  color: yellow;
+  font-family: Secular One;
+  padding: 10px;
+  font-size: 25px; }
+
+nav a:hover {
+  color: white;
+  transform: scale(1.1); }
+
+.active {
+  color: #7F8176; }
+
+p {
+  font-family: Arial;
+  font-size: 20px;
+  margin: 10px 0px 10px 3px; }
+
+.logo {
+  width: 200px;
+  align-items: center;
+  vertical-align: middle; }
+
+.clama {
+  font-family: Secular One;
+  font-size: 45px;
+  display: inline-block;
+  color: white; }
+
+.cabecera {
+  background-color: black;
+  display: flex;
+  align-items: center; }
+
+.navegacion {
+  display: flex;
+  margin: 0 auto; }
+
+.encabezado_lista {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  list-style: none; }
+
+.encabezado_lista_item {
+  margin: 16px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center; }
+
+.subtitulos {
+  text-align: center;
+  margin: 30px;
+  font-family: Secular One;
+  font-size: 30px; }
+
+footer {
+  background-color: black;
+  font-size: 25px; }
+
+.footer_redes {
+  color: white;
+  font-family: Varela Round;
+  text-align: center;
+  padding: 10px; }
+
+.footer_lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 50%;
+  list-style: none; }
+
+.whatsapp {
+  width: 80px;
+  position: fixed;
+  right: 1px;
+  bottom: 1px; }
+
+.videoAlaskan {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: yellow;
+  border: solid 3px black;
+  padding: 16px;
+  margin: 0 16px 16px 16px; }
+
+.videoAlaskan_solo {
+  border: solid 3px black;
+  margin-left: 16px; }
+
+.videoDuster {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+  background-color: yellow;
+  border: solid 3px black;
+  padding: 16px;
+  margin: 16px 16px 30px 16px; }
+
+.videoDuster_solo {
+  border: solid 3px black;
+  margin-right: 16px; }
+
+@media screen and (max-width: 1220px) {
+  .cabecera {
+    flex-wrap: wrap;
+    align-items: center;
+    width: fit-content; }
+  .encabezado_lista {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; }
+  .subtitulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .videoAlaskan {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px 16px 0px; }
+  .videoAlaskan_solo {
+    width: auto; }
+  .videoDuster {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px 16px 0px; }
+  .videoDuster_solo {
+    width: auto; }
+  .footer_lista_item img {
+    width: 50px; }
+  .whatsapp {
+    width: 50px; }
+  .servicios_bloque:hover {
+    background-color: white; }
+  .servicios_bloque {
+    width: 80%; }
+  .servicios_img {
+    padding: 16px;
+    width: 100%; }
+  .suc_beiro {
+    flex-direction: column; }
+  .suc_mapa {
+    width: 100%; }
+  .form_div {
+    flex-direction: column;
+    width: 80%; }
+  .input {
+    width: 80%; }
+  .textarea {
+    width: 80%; }
+  .casaCentral_ubi {
+    width: 100%; }
+  .casaCentral {
+    flex-direction: column;
+    width: 100%; }
+  .mapaCentral {
+    width: 80%; } }
+
+@media screen and (max-width: 425px) {
+  .cabecera {
+    flex-wrap: wrap;
+    align-items: center;
+    width: fit-content; }
+  .encabezado_lista {
+    flex-direction: column; }
+  .subtitulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .videoAlaskan {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px 16px 0px; }
+  .videoAlaskan_solo {
+    width: auto; }
+  .videoDuster {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px 16px 0px; }
+  .videoDuster_solo {
+    width: auto; }
+  .footer_lista_item img {
+    width: 50px; }
+  .whatsapp {
+    width: 50px; }
+  .autos {
+    flex-direction: column; }
+  .autos_div {
+    margin: 0px 0px 16px 0px;
+    width: 100%; }
+  .imagenAutos {
+    margin: 0px;
+    width: 100%; }
+  .servicios_bloque:hover {
+    background-color: white; }
+  .servicios_bloque {
+    width: 100%; }
+  .servicios_img {
+    padding: 2px;
+    width: 100%; }
+  .suc_beiro {
+    flex-direction: column;
+    width: 100%; }
+  .suc_mapa {
+    width: 100%; }
+  .form_div {
+    flex-direction: column;
+    width: 80%; }
+  .input {
+    width: 80%; }
+  .textarea {
+    width: 80%; }
+  .casaCentral_ubi {
+    width: 100%; }
+  .casaCentral {
+    flex-direction: column;
+    width: 100%; }
+  .mapaCentral {
+    width: 100%; } }

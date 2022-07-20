@@ -89,7 +89,8 @@ p{
 }
 
 .videoAlaskan_solo{
-    border: solid 3px ;
+    border: solid 3px black;
+    margin-left: 16px;
 }
 
 .videoDuster{
@@ -435,7 +436,7 @@ span{
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 425px){
     .cabecera{
         flex-wrap: wrap;
         align-items: center;

@@ -2,3 +2,106 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: map-get($colores, "color-default");
+    background-position: center;
+    background-size: cover;
+}
+
+nav a{
+    text-decoration: none;
+    color: map-get($colores , "color-principal" );
+    font-family: map-get($fuentes , "secular");
+    padding: 10px;
+    font-size: 25px; 
+}
+
+nav a:hover{
+    color: map-get($colores , "color-default" );
+    transform: scale(1.1);
+}
+
+.active{
+    color: map-get($colores , "color-terciario" );
+}
+
+p{
+    font-family: map-get($fuentes , "arial" );
+    font-size: 20px;
+    margin: 10px 0px 10px 3px;
+}
+
+.logo{
+    width: 200px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.clama{
+    font-family: map-get($fuentes , "secular" );
+    font-size: 45px;
+    display: inline-block;
+    color: map-get($colores , "color-default" );
+}
+
+.cabecera{
+    background-color: map-get($colores , "color-secundario" );
+    display: $display-flex;
+    align-items: center;
+}
+
+.navegacion{
+    display: $display-flex;
+    margin: $margin-auto;
+}
+
+.encabezado_lista{
+    display: $display-flex;
+    flex-direction: row;
+    margin: $margin-auto;
+    list-style: none;
+}
+
+.encabezado_lista_item{
+    margin: 16px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.subtitulos{
+    text-align:center;
+    margin: 30px;
+    font-family: map-get($fuentes , "secular" );
+    font-size: 30px;
+}
+
+footer{
+    background-color: map-get($colores , "color-secundario" );
+    font-size: 25px;
+}
+
+.footer_redes{
+    color: map-get($colores , "color-default" );
+    font-family: map-get($fuentes , "varela" );
+    text-align: center;
+    padding: 10px;
+}
+
+.footer_lista{
+    display: $display-flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: $margin-auto;
+    width: 50%;
+    list-style: none;
+}
+
+.whatsapp{
+    width: 80px;
+    position: fixed;
+    right: 1px;
+    bottom: 1px; 
+}
+
