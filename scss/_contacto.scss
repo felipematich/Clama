@@ -1,0 +1,48 @@
+.subtitulo_3{
+    display: $display-flex;
+    justify-content:center ;
+    font-family: map-get($fuentes , "varela" );
+    font-weight: bold;
+    font-size: 25px;
+    margin: $margin16-auto;
+}
+
+.formulario{
+    @include displayflex (flex, column);
+    justify-content:center ;
+    margin: $margin16-auto;
+}
+
+.form_div{
+    @include displayflex (flex, row);
+    justify-content: center;
+    align-items: center;
+    background-color: map-get($colores , "color-principal" );
+    border:  solid 1px map-get($colores , "color-secundario" );
+    border-radius: 6px;
+    width: 40%;
+    margin: $margin16-auto;
+    padding: 16px;
+}
+
+label{
+    font-family: map-get($fuentes , "arial" );
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.input{
+    width: 50%;
+    margin: 5px 0px 10px 3px;
+    padding: 3px;
+}
+
+.textarea{
+    width: 80%;
+}
+
+.enviar{
+    width: 100px;
+    height: 50px;
+}

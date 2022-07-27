@@ -1,0 +1,39 @@
+.autos{
+    @include displayflex (flex, row);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.autos_div{
+    text-align: center;
+    font-family: map-get($fuentes , "varela" );
+    background-color: map-get($colores , "color-principal" );
+    margin: 16px;
+}
+
+.imagenAutos{
+    width: 500px;
+    margin: 16px;
+    border: solid 3px map-get($colores , "color-secundario" );
+}
+
+.boton{
+    @include displayflex (flex, row);
+    border-radius: 8px;
+    background-color: map-get($colores , "color-cuaternario" );
+    font-family: map-get($fuentes , "varela" );
+    font-weight: bold;
+    margin: 16px;
+    padding: 16px;
+}
+
+.preguntasFrecuentes{
+    margin: 16px 0px 16px 0px;
+    font-family: map-get($fuentes , "secular" );
+    font-size: 30px;
+}
+
+.acordion{
+    margin: 16px 0px 16px 0px;
+    padding: 16px;
+    background-color: gray;
+}

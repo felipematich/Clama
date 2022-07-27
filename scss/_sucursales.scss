@@ -1,0 +1,39 @@
+.suc_beiro{
+   @include displayflex (flex, row);
+    justify-content: flex-end;
+    text-align:left; 
+    background-color: map-get($colores , "color-principal" );
+    border: solid 3px map-get($colores , "color-secundario" );
+    width: 60%;
+    padding: 16px;
+    margin: $margin16-auto;
+}
+
+.suc_beiro:hover{
+    transform: scale(1.03);
+    transition: linear 1s;
+    animation: sucursal 2s;
+}
+
+@keyframes sucursal{
+    50%{
+        background-color: #F7FD45;
+    }
+    100%{
+        background-color: #F6FE0D;
+    }
+}
+
+.subtitulo_suc{
+    font-family: map-get($fuentes , "varela" );
+    margin: $margin16-auto;
+}
+
+.suc_texto{
+    font-family: map-get($fuentes , "arial" );
+    margin: 16px;
+}
+
+.subText{
+    text-align: left;
+}

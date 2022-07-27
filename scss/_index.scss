@@ -1,29 +1,26 @@
 .videoAlaskan{
-    display: $display-flex;
-    flex-direction: row;
+    @include displayflex (flex, row);
     text-align:left; 
     background-color: map-get($colores , "color-principal" );
     border: solid 3px map-get($colores , "color-secundario");
     padding: 16px;
     margin: 0 16px 16px 16px;
-}
-
-.videoAlaskan_solo{
-    border: solid 3px map-get($colores , "color-secundario" ) ;
-    margin-left: 16px;
+    .videoAlaskan_solo{
+        border: solid 3px map-get($colores , "color-secundario" ) ;
+        margin-left: 16px;
+    }
 }
 
 .videoDuster{
-    display: $display-flex;
-    flex-direction: row-reverse;
+    @include displayflex (flex, row-reverse);
     text-align:left;
     background-color: map-get($colores , "color-principal" );
     border: solid 3px map-get($colores , "color-secundario" );
     padding: 16px;
     margin: 16px 16px 30px 16px;
+    .videoDuster_solo{
+        border: solid 3px map-get($colores , "color-secundario" );
+        margin-right: 16px;
+    }
 }
 
-.videoDuster_solo{
-    border: solid 3px map-get($colores , "color-secundario" );
-    margin-right: 16px;
-}

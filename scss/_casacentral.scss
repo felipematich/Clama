@@ -1,0 +1,24 @@
+span{
+    font-weight: bold;
+}
+
+.casaCentral_ubi{
+    font-family: map-get($fuentes , "varela" );
+    font-size: 30px;
+    text-align: center;
+    border: solid 3px map-get($colores , "color-secundario" );
+    margin: $margin16-auto;
+}
+
+.casaCentral{
+    @include displayflex (flex, row);
+    align-items:center;
+    justify-content: space-evenly;
+    margin: 16px 0px 16px 0px;
+    padding: 16px;
+    background-color: yellow;
+}
+
+.casaCentral_texto{
+    @include displayflex (flex, column);
+}

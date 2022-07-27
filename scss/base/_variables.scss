@@ -2,7 +2,9 @@ $colores:(
     "color-principal": yellow,
     "color-secundario": black,
     "color-terciario": #7F8176,
+    "color-cuaternario":#FFFD62,
     "color-default":white,
+    
 );
 
 $fuentes:(
@@ -12,5 +14,7 @@ $fuentes:(
 );
 
 $margin-auto: 0 auto;
+
+$margin16-auto: 16px auto;
 
 $display-flex: flex;

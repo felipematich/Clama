@@ -1,0 +1,31 @@
+.servicios_bloque:hover{
+    background-color: map-get($colores , "color-cuaternario" );
+}
+
+.servicios_bloque{
+    @include displayflex (flex, column);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 3px map-get($colores , "color-secundario" );
+    width: 50%;
+    margin: $margin16-auto;
+}
+
+.servicios_subtitulo{
+    font-family: map-get($fuentes , "varela" );
+    font-size: xx-large;
+    margin: $margin16-auto;
+}
+
+.servicios_texto{
+    font-family: Arial;
+    font-weight: bold;
+    margin: $margin16-auto;
+}
+
+.servicios_img{
+    margin: $margin16-auto;
+    width: 700px;
+    height: 400px;
+}
