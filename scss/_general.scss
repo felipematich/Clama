@@ -26,6 +26,11 @@ nav a:hover{
     color: map-get($colores , "color-terciario" );
 }
 
+.navbar-toggler{
+    color: map-get($colores , "color-principal" );
+    margin: $margin-auto;
+}
+
 p{
     font-family: map-get($fuentes , "arial" );
     font-size: 20px;
@@ -78,22 +83,28 @@ p{
 footer{
     background-color: map-get($colores , "color-secundario" );
     font-size: 25px;
-    .footer_redes{
-        color: map-get($colores , "color-default" );
-        font-family: map-get($fuentes , "varela" );
-        text-align: center;
-        padding: 10px;
+    .footer_lista{
+        @include displayflex (flex, row);
+        justify-content: flex-end;
+        justify-content: center;
+        margin: $margin16-auto;
+        width: 50%;
+        list-style: none;
     }
+    .derechos{
+        margin: 16px;
+        font-size: 20px;
+        margin: 16px auto;
+        color: map-get($colores , "color-default" );
+    }
+    
 }
 
-.footer_lista{
-   @include displayflex (flex, row);
-    justify-content:space-around;
-    margin: $margin-auto;
-    width: 50%;
-    list-style: none;
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
-
 .whatsapp{
     width: 80px;
     position: fixed;

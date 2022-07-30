@@ -9,6 +9,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
+        width: 70%;
     }
 
     .subtitulos{
@@ -37,9 +38,20 @@
         width: auto;
     }
 
-    .footer_lista_item img{
-        width: 50px;
+    footer{
+        flex-direction: column;
+        margin: $margin16-auto;
     }
+
+    .footer{
+        margin: $margin16-auto;
+        flex-direction: column;
+    }
+
+    .derechos{
+        margin: $margin16-auto;
+    }
+
 
     .whatsapp{
         width: 50px;
@@ -93,6 +105,35 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+    .cabecera{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .encabezado_lista{
+        justify-content: center;
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .autos{
+        flex-direction: column;
+    }
+
+    .autos_div{
+        margin: 0px 0px 16px 0px;
+        width: 100%;
+    }
+
+    .imagenAutos{
+        margin: 3px;
+        width: 97%;
+    }
+}
+
 @media screen and (max-width: 425px){
     .cabecera{
         flex-wrap: wrap;
@@ -130,8 +171,23 @@
         width: auto;
     }
 
-    .footer_lista_item img{
-        width: 50px;
+    footer{
+        flex-direction: column;
+        margin: $margin16-auto;
+    }
+
+    .footer{
+        margin: $margin16-auto;
+        flex-direction: column;
+    }
+
+    .footer_lista{
+        margin: $margin-auto;
+    }
+
+    .derechos{
+        margin: $margin16-auto;
+        justify-content: center;
     }
 
     .whatsapp{
@@ -148,8 +204,8 @@
     }
 
     .imagenAutos{
-        margin: 0px;
-        width: 100%;
+        margin: 3px;
+        width: 97%;
     }
 
     .servicios_bloque:hover{

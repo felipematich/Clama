@@ -20,17 +20,40 @@
         <a href="../index.html"><img class="logo" src="../imagenes/logo.jpg" alt="logo"/><h1 class="clama">CLAMA</h1>
 		</a>
 
-        <nav class="navegacion">
-            <ul class="encabezado_lista">
-                <li><a class="encabezado_lista_item" href="../index.html">Home</a></li>
-                <li><a class="encabezado_lista_item" href="./0km.html">Autos 0KM</a></li>
-                <li><a class="encabezado_lista_item" href="./servicios.html">Servicios</a></li>
-                <li><a class="encabezado_lista_item" href="./sucursales.html">Sucursales</a></li>
-                <li><a class="encabezado_lista_item active" href="#">Contacto</a></li>
-                <li><a class="encabezado_lista_item" href="./casa-central.html">Casa Central</a></li>
-            </ul>
-		</nav>
+        <nav class="navbar navbar-expand-lg navegacion">
+			<div class="container-fluid">
+			  <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  	<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="encabezado_lista">
+				  		<li class="nav-item">
+							<a class="encabezado_lista_item" aria-current="page" href="../index.html">Home</a>
+				  		</li>
+						
+						<li class="nav-item">
+							<a class="encabezado_lista_item" aria-current="page" href="../paginas/0km.html">Autos 0KM</a>
+				  		</li>
 
+						<li class="nav-item">
+							<a class="encabezado_lista_item" aria-current="page" href="../paginas/servicios.html">Servicios</a>
+				  		</li>
+
+						<li class="nav-item">
+							<a class="encabezado_lista_item" aria-current="page" href="../paginas/sucursales.html">Sucursales</a>
+				  		</li>
+
+						<li class="nav-item">
+							<a class="encabezado_lista_item active" aria-current="page" href="#">Contacto</a>
+				  		</li>
+
+						<li class="nav-item">
+							<a class="encabezado_lista_item" aria-current="page" href="../paginas/casa-central.html">Casa Central</a>
+				  		</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</header>
 
     <main>
@@ -100,25 +123,26 @@
     </main>
 
     <footer>
-		<section>
-			<h2 class="footer_redes">Seguinos</h2>
+		<section class="footer">
+			<div class="derechos">
+				<p>© 2022 por Clama S.A. Todos los derechos reservados.</p>
+			</div>
 			<ul class="footer_lista">
 				<li class="footer_lista_item">
-					<a href="https://www.facebook.com/clamarenault" target="_blank"><img width="150" src="../imagenes/facebook.png" alt="facebook de clama">
+					<a href="https://www.facebook.com/clamarenault" target="_blank"><img src="../imagenes/facebook.png" alt="facebook de clama">
 					</a>
 				</li>
 				<li class="footer_lista_item">
-					<a href="https://www.youtube.com/c/ClamaArbeiro3071/videos" target="_blank"><img width="150" src="../imagenes/youtube.png" alt="youtube de clama">
+					<a href="https://www.youtube.com/c/ClamaArbeiro3071/videos" target="_blank"><img src="../imagenes/youtube.png" alt="youtube de clama">
 					</a>
 				</li>
 				<li class="footer_lista_item">
-					<a href="https://www.instagram.com/clama.renault/" target="_blank"><img width="150" src="../imagenes/instagram.png" alt="instagram de clama">
+					<a href="https://www.instagram.com/clama.renault/" target="_blank"><img src="../imagenes/instagram.png" alt="instagram de clama">
 					</a>
 				</li>
 			</ul>
-            <a href="https://api.whatsapp.com/send/?phone=5491145058600&text=Hola%2C+me+estoy+comunicando+desde+la+web.+Mi+consulta+es%3A+&type=phone_number&app_absent=0" target="blank" ><img  class="whatsapp" src="../imagenes/whatsapp.png" alt="Whatsapp Clama"></a>
-
 		</section>
+        <a href="https://api.whatsapp.com/send/?phone=5491145058600&text=Hola%2C+me+estoy+comunicando+desde+la+web.+Mi+consulta+es%3A+&type=phone_number&app_absent=0" target="blank" ><img  class="whatsapp" src="../imagenes/whatsapp.png" alt="Whatsapp Clama"></a>
 	</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
